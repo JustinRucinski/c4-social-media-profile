@@ -89,28 +89,26 @@ body{
     text-align: left;
     margin-top: 0px;
   }
-  
-  
-  div.bio {
-     padding: 0px;
-     background: #F3F3F4;
-     color: #131b23;
-     margin: 0 auto;
-     width: 675px;
-     height: 250px;
-     border-radius: 20px;
-     box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  }
-  
+
   
   div.info {
-    padding: 150px;
+    padding: 125px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
     width: 1800px;
-   
   }
+
+  div.bio {
+    padding: 0px;
+    background: #F3F3F4;
+    color: #131b23;
+    margin: 0 auto;
+    width: 675px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+ }
   
   div.interests {
       margin: 0 auto;
