@@ -91,19 +91,18 @@ body{
   }
 
   
-  div.info {
+  .info {
     padding: 125px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 0px;
+    display: flex;
     width: 1800px;
+    justify-content: space-around;
+   
   }
 
   div.bio {
     padding: 0px;
     background: #F3F3F4;
     color: #131b23;
-    margin: 0 auto;
     width: 675px;
     height: 250px;
     border-radius: 20px;
@@ -111,7 +110,6 @@ body{
  }
   
   div.interests {
-      margin: 0 auto;
       background: #F3F3F4;
       color: #131b23;
       width: 675px;
