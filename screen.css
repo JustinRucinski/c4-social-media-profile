@@ -3,14 +3,14 @@ body{
     background: #FDFDFF;
   }
   
-  .skatebook{
+  .header{
     background: #575C55;
     padding: 0px 10px;
     display: flex;
     justify-content: space-between;
   }
   
-  h1.header{
+  h1.top-main{
     color: #ACC12F;
     font-size: 40px;
     letter-spacing: 8px;
