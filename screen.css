@@ -1,4 +1,141 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
-}
+body{
+    font-family: helvetica;
+    background: #FDFDFF;
+  }
+  
+  .header{
+    background: #575C55;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h1.header-main{
+    color: #ACC12F;
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-family: helvetica;
+    margin-left: 20px;
+  }
+  
+  a.header-link{
+    color: #FDFDFF;
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 100px;
+    text-decoration: none;
+  }
+  
+  a.header-link:hover{
+    text-decoration: underline;
+  }
+  
+  .main {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 375px;
+    width: 1800px;
+    justify-content: left;
+  }
+  
+  .main img {
+    margin-right: 50px; 
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+  }
+
+  .details {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin: 0; 
+    text-align: left;
+  }
+
+  div.location, div.age, div.occupation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  h2.main-header{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-weight: 700;
+  }
+  
+  h3.details-header{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 25px;
+    text-align: left;
+  }
+  
+  p.general-info{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  
+  div.bio {
+     padding: 0px;
+     background: #F3F3F4;
+     color: #131b23;
+     margin: 0 auto;
+     width: 675px;
+     height: 250px;
+     border-radius: 20px;
+     box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+  
+  
+  container.info {
+    padding: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+    width: 1800px;
+    margin: 0 auto;
+   
+  }
+  
+  div.interests {
+      margin: 0 auto;
+      background: #F3F3F4;
+      color: #131b23;
+      width: 675px;
+      height: 250px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  h3.info-header {
+    background: #575C55;
+    margin: 0;
+    text-align: center;
+    color: #ACC12F;
+    font-size: 30px;
+    letter-spacing: .15em;
+    font-weight: 500;
+  }
+  
+  p.info-text {
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 0px;
+  }
+  
+  ul.info-list {
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  
+  
