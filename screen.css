@@ -5,17 +5,18 @@ body{
   
   .header{
     background: #575C55;
-    padding: 0px 10px;
+    padding: 5px 10px;
     display: flex;
     justify-content: space-between;
   }
   
-  h1.top-main{
+  h1.header-main{
     color: #ACC12F;
     font-size: 40px;
     letter-spacing: 8px;
-    font-family: inter;
+    font-family: helvetica;
     margin-left: 20px;
+    
   }
   
   a.header-link{
