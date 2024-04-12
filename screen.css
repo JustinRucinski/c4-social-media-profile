@@ -20,17 +20,15 @@ body{
   }
 
   div.links{
-      display: flex;
-      align-items: center;
+      display: grid;
+      margin: auto;
   }
   
   a.header-link{
     color: #FDFDFF;
     font-size: 25px;
     font-weight: 600;
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 40px;
     padding-right: 100px;
     text-decoration: none;
   }
