@@ -1,5 +1,5 @@
 body{
-    font-family: helvetica;
+    font-family: inter;
     background: #FDFDFF;
   }
   
@@ -14,7 +14,7 @@ body{
     color: #ACC12F;
     font-size: 40px;
     letter-spacing: 8px;
-    font-family: helvetica;
+    font-family: inter;
     margin-left: 20px;
   }
   
@@ -36,7 +36,7 @@ body{
   .main {
     display: flex;
     margin-top: 150px;
-    margin-left: 375px;
+    margin-left: 300px;
     width: 1800px;
     justify-content: left;
   }
@@ -46,6 +46,7 @@ body{
     width: 375px;
     height: 375px;
     border-radius: 50%;
+    border: 1px solid #575C55;
   }
 
   .details {
@@ -54,6 +55,7 @@ body{
     flex-wrap: wrap; 
     margin: 0; 
     text-align: left;
+    gap: 100px;
   }
 
   div.location, div.age, div.occupation {
@@ -64,7 +66,8 @@ body{
 
   h2.main-header{
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 35px;
     text-align: left;
     font-weight: 700;
   }
@@ -72,14 +75,16 @@ body{
   h3.details-header{
     font-size: 25px;
     font-weight: 500;
-    margin: 25px;
     text-align: left;
+    margin-bottom: 0px;
+    color: #575C55;
   }
   
   p.general-info{
     font-size: 25px;
     font-weight: 600;
     text-align: left;
+    margin-top: 0px;
   }
   
   
